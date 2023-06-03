@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+  }
+
+main {
+    margin:  auto;
+    width: 700px;
+    min-height: 3000px;
+  }
+
+  .content{
+    padding-top: 10px;
+  }
+
+  .progressbar {
+    margin: 20px;
+height: 20px;
+border: 1px solid;
+background-image: linear-gradient(to right, red 50%, blue 50%);
+ }
