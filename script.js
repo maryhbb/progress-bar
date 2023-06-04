@@ -26,10 +26,10 @@ const onScroll = () => {
   const scrollable = scrollHeight - viewportHeight;
 //   console.log(scrollable);
 
-  const scrolledInPercent = Math.round((scrolled * 100) / scrollable);
+  const scrolledInPercent = (scrolled * 100) / scrollable;
   console.log(scrolledInPercent);
 
-  progressEl.style.backgroundImage = `linear-gradient(to right, red ${scrolledInPercent}%, blue ${scrolledInPercent}%)`;
+  progressEl.style.backgroundImage = `linear-gradient(to right, red ${scrolledInPercent}%, transparent ${scrolledInPercent}%)`;
 };
 
 window.addEventListener("scroll", onScroll);
