@@ -25,13 +25,13 @@ header {
     bottom: 0;
     width: inherit;
     height: 10px;
-    background-image: linear-gradient(to right, red 50%, transparent 50%);
+    background-image: linear-gradient(to right, red , transparent );
   }
   
 main {
   margin: auto;
   width: 700px;
-  min-height: 3000px;
+  min-height: 10000vh;
 }
 
 .content {
